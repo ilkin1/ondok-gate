@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "baseUrl": "src",
+    "paths": {
+      "*" : ["./*"]
+//      "*" : ["./src/*"]
+//      "*": [
+//        "*"
+//      ]
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "extendedDiagnostics": true,
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "suppressExcessPropertyErrors": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

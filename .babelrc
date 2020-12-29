@@ -1,0 +1,30 @@
+{
+  // "presets": [ "es2015", "stage-0" ]
+  "presets": [
+    ["@babel/env", {
+      "targets": {
+        "node": "current"
+      }
+    }],
+    "@babel/typescript"
+  ],
+  "plugins": [
+    // "@babel/preset-env",
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-nullish-coalescing-operator",
+    ["module-resolver", {
+      "root": ["./src"],
+      "cwd": "babelrc",
+      "alias": {
+        "op": "./src/op",
+        "apx": "./src/apx",
+        "conf": "./src/conf",
+        "domain": "./src/domain",
+        "foundation": "./src/foundation",
+        "middleware": "./src/middleware"
+      }
+    }]
+  ]
+}

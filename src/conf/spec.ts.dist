@@ -1,0 +1,9 @@
+
+export default {
+  env: process.env.NODE_ENV,
+  debug: true,
+  port: 3001,
+  projectPath: '/home/elijah/code/jobsearch/gate',
+  monoUrl: 'http://localhost:5000/',
+  siteUrl: 'http://jobsearch.test/'
+}

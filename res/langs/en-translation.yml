@@ -1,0 +1,126 @@
+#std:
+
+##################
+# DOMAIN
+##################
+gender:
+  male: Male
+  female: Female
+
+##################
+# BLOCKS
+##################
+landing:
+  go-on: register now
+  header:
+    registration: Registration
+  hero:
+    title:
+      - Finding a Doctor in
+      - Turkey has never been easier
+    desc: Ondok.az is a platform which brings doctors from Turkish hospitals closer to you, allowing you to find the doctor best matching to your concerns and to contact them online from your device.
+  benefits:
+    title: Benefits
+    questions:
+      - - You have
+        - health issues?
+      - - You wonder if the
+        - diagnosis or treatment is correct?
+      - - You need to
+        - consult a good doctor before making an important health decision?
+      - - Your treatment is
+        - not bringing results?
+      - - You would like
+        - to consult a doctor in
+        - Turkey?
+    answer:
+      - If these are your concerns, then Ondok.az is here to help you.
+      - Use our platform to find a doctor from various hospitals in Turkey and appoint online or face to face meeting.
+  how-it-works:
+    title: How it works?
+    blocks:
+      specialization:
+        title: Select specialization
+        description: Use the catalogue on our webpage to view the profiles of the doctors from various Turkish hospitals and with a wide range of specialization and expertise.
+      expert:
+        title: Select expert
+        description: Select the doctor that matches your problem the most, book an appointment and make the payment.
+      video-call:
+        title: Join the video call
+        description: On the appointed time join the video call with your doctor from wherever you want to get opinion to your concerns from experts in various fields.
+      discount:
+        title: Get special discounted offers
+        description: You can also reserve your face to face meetings through our platform and get special discounted offers.
+  saves-time:
+    - Ondok.az — saves your time, saves your money and makes your contact with
+    - Turkish doctors easier than ever before.
+  simple-steps:
+    title: Simple steps to meeting with your doctor
+    lure: Want to try it? Answer our survey questions and be the first users to test the system!
+    steps:
+      - [ 'Find your doctor', ' in our catalogue and select the one that fits you the best.' ]
+      - [ 'Book an appointment.' ]
+      - [ 'Make the payment.' ]
+      - [ 'Join the video call', ' on appointed time.' ]
+      - [ 'Free follow up meeting', ' with your doctor within 15 days.' ]
+  survey:
+    title: Register now
+    submit: send
+    prev-step: back
+    next-step: next step
+    steps:
+      - Your Needs
+      - Your Details
+      - Your Contacts
+    before-lb: Have you received medical treatment in Turkey before?
+    before-opts: [ 'No', 'Yes' ]
+    services-lb: Which medical services are you most interest to receive via online consultation? Select more than one.
+    services:
+      - [ 1, 'Cardiology' ]
+      - [ 2, 'Orthopedics' ]
+      - [ 3, 'Lung and chest disease' ]
+      - [ 4, 'General surgery' ]
+      - [ 5, 'Gynecology and birth' ]
+      - [ 6, 'Infertility and IVF' ]
+      - [ 7, 'Urology' ]
+      - [ 8, 'Internal Diseases' ]
+      - [ 9, 'Nutritionist' ]
+      - [ 10, 'Ear, nose and throat' ]
+      - [ 11, 'Neurology' ]
+      - [ 12, 'Rheumatology' ]
+      - [ 13, 'Allergy' ]
+      - [ 14, 'Psychology' ]
+      - [ 15, 'Beautician' ]
+      - [ 16, 'Ophthalmology' ]
+      - [ 17, 'Child Psychology' ]
+      - [ 18, 'Traumatologist' ]
+      - [ 19, 'Diabetics and endocrinology' ]
+      - [ 20, 'Gastroenterologist' ]
+      - [ 21, 'Brain Surgery' ]
+    price-range-lb: What is the price range that you are ready to pay for one session of online consultations with turkish doctors?
+    price-ranges:
+      - 0-50 Azn
+      - 50-100 Azn
+      - 100-150 Azn
+      - 150 Azn and more
+    full-name-lb: Full Name
+    full-name-ph: Enter Your Full Name
+    gender-lb: Gender
+    age-lb: Age
+    age-ph: Type Age
+    city-lb: City
+    city-ph: Enter City
+    email-lb: Email
+    email-ph: Enter Email
+    phone-lb: Phone
+    phone-ph: Area code and Phone number
+    thanks:
+      title: Thank you for cooperating with ondok.az.
+      desc: Currently our team is working to deliver the most friendly experience to you for contacting your doctors in Turkey. As soon the last preparation works are done, our coordinator will get in touch with you to appoint your first consultation at a special rate.
+      bold: Thank you for helping us to shorten the path between you and your doctor!
+  partners:
+    title: Partners
+  follow:
+    title: 'Follow us:'
+
+
